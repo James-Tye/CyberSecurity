@@ -26,10 +26,10 @@
           <mxGeometry x="40" y="70" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8" value="Sensitive Data Detected?" style="rhombus;whiteSpace=wrap;html=1;" parent="3" vertex="1">
-          <mxGeometry x="80" y="150" width="120" height="80" as="geometry" />
+          <mxGeometry x="80" y="180" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9" value="Encrypt File or Email + Set Time-To-Live (TTL)" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
-          <mxGeometry x="40" y="280" width="200" height="60" as="geometry" />
+          <mxGeometry x="40" y="310" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="12" value="TTL Expired or Access Revoked?" style="rhombus;whiteSpace=wrap;html=1;" parent="3" vertex="1">
           <mxGeometry x="80" y="450" width="120" height="80" as="geometry" />
@@ -39,6 +39,12 @@
         </mxCell>
         <mxCell id="e9" style="endArrow=block;" parent="3" source="11" target="12" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z7rW5MhVGWjF2jKSeIDD-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3" source="7" target="8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="140" as="sourcePoint" />
+            <mxPoint x="170" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4" value="External User or Vendor" style="swimlane" parent="1" vertex="1">
           <mxGeometry x="560" width="280" height="1000" as="geometry" />
